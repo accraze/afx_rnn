@@ -8,7 +8,7 @@ convert_dir_to_note_sequences \
   --output_file=$SEQUENCES_TFRECORD \
   --recursive
 
-CONFIG='performance'
+CONFIG="performance_with_dynamics"
 
 performance_rnn_create_dataset \
 --config=${CONFIG} \
