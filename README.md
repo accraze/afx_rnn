@@ -12,9 +12,13 @@ To train the model use:
 ```
 $ ./train.sh
 ```
+This will create the `NoteSequences` and `SequenceExamples` that will be fed into
+the PerformanceRNN model during training and evaluation.
 
 To generate midi files:
 
 ```
 $ ./generate.sh
 ```
+
+This will place 10 new files in the output directory.
